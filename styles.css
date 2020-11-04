@@ -1,10 +1,27 @@
 body{
     display: flex;
     flex-wrap: wrap;
+    font-family: 'Nunito', sans-serif;
+    justify-content: space-evenly;
 }
+
+header{
+    flex-basis: 100%;
+}
+
+h1{
+    font-style: italic;
+    font-size: 4em;
+    margin: auto;
+    text-align: center;
+} 
 
 figure{
     width: 200px;
+    margin: 0;
+    border: 1px solid #777;
+    padding: 8px;
+    box-sizing: border-box;
   }
 
 figure img{
@@ -15,6 +32,3 @@ figure figcaption{
     text-align: center;
   }
 
-  h1{
-      font-style: italic;
-} 
