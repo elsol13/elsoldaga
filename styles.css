@@ -8,6 +8,14 @@ header{
     flex-basis: 100%;
 }
 
+.wrapper{
+    display: flex;
+    flex-basis: 100%;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 h1{
     font-style: italic;
     font-size: 4em;
@@ -16,11 +24,11 @@ h1{
 } 
 
 figure{
-    width: 200px;
+    width: 300px;
     border: 1px solid #777;
-    padding: 8px;
+    padding: 1em;
     box-sizing: border-box;
-    margin: 8px 0;
+    margin: 3vh;
     background-color: #fff;
   }
 
@@ -28,15 +36,14 @@ figure img{
     width: 100%;
   }
 
-.wrapper{
-    display: flex;
-    flex-basis: 100%;
-    margin: auto;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
 figure figcaption{
     text-align: center;
-    padding: 8px 4px;
+    vertical-align: middle;
+    font-size: 1.1em;
+    padding: 5%;
+}
+
+figure:hover{
+    opacity: 70%;
+    transition: width 2s;
 }
