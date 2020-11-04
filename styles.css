@@ -1,5 +1,7 @@
 body{
     font-family: 'Nunito', sans-serif;
+    background: rgb(249,225,235);
+    background: radial-gradient(circle, rgba(249,225,235,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 header{
