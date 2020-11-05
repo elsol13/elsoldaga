@@ -8,6 +8,11 @@ header{
     flex-basis: 100%;
 }
 
+footer{
+    flex-basis: 100%;
+    color: black;
+}
+
 .wrapper{
     display: flex;
     flex-basis: 100%;
