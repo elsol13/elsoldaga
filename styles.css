@@ -9,6 +9,14 @@ header{
     flex-basis: 100%;
 }
 
+
+footer{
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    margin-bot: 3vh;
+}
+
 .wrapper{
     display: flex;
     flex-basis: 100%;
@@ -48,10 +56,4 @@ figure figcaption{
 figure:hover{
     opacity: 70%;
     transition: width 2s;
-}
-
-.footer{
-    text-align: center;
-    font-weight: lighter;
-    color: white;
 }
