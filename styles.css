@@ -13,8 +13,9 @@ footer{
     color: white;
     text-align: center;
     font-size: 1.2em;
-    padding: 3% 0%;
+    padding: 2% 0%;
     background-color: black;
+    margin-top: 2%;
 }
 
 .wrapper{
