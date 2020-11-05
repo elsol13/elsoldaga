@@ -10,10 +10,11 @@ header{
 
 footer{
     flex-basis: 100%;
-    color: black;
+    color: white;
     text-align: center;
     font-size: 1.2em;
-    padding: 3% 0% 3% 0%;
+    padding: 3% 0%;
+    background-color: black;
 }
 
 .wrapper{
