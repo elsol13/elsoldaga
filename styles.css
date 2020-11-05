@@ -46,5 +46,5 @@ figure figcaption{
 
 figure:hover{
     opacity: 70%;
-    transition: .9s;
+    transition: .6s;
 }
