@@ -1,7 +1,8 @@
 body{
     font-family: 'Nunito', sans-serif;
-background-color: #000000;
-background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+    background: black;
+/*  background: rgb(249,225,235);
+    background: radial-gradient(circle, rgba(249,225,235,1) 0%, rgba(148,187,233,1) 100%); */
 }
 
 header{
@@ -47,4 +48,9 @@ figure figcaption{
 figure:hover{
     opacity: 70%;
     transition: width 2s;
+}
+
+.footer{
+    text-align: center;
+    font-weight: lighter;
 }
